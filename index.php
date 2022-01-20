@@ -35,7 +35,6 @@ get_header();
 		endwhile; // End of the loop.
         ?>
     <div class="my-4">
-        <h2 class="text-lg text-gray-700">ニュース</h2>
         <div id="root"></div>
     </div>
 </main><!-- #main -->

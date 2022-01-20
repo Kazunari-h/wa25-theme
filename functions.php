@@ -146,7 +146,7 @@ function sato_scripts() {
 	wp_enqueue_script( 'sato-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	// 
-	wp_enqueue_script("post-list", get_template_directory_uri() . '/js/postList.js', [
+	wp_enqueue_script("post-list", get_template_directory_uri() . '/build/index.js', [
 		'wp-element',
 		'wp-blocks',
         'wp-i18n',
